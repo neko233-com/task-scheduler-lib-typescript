@@ -1,0 +1,17 @@
+{
+  "name": "task-scheduler-lib-typescript",
+  "version": "0.1.0",
+  "description": "TypeScript SDK for server-task-scheduler: embeddable auto-registering worker.",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "example": "tsc && node dist/example.js"
+  },
+  "keywords": ["task-scheduler", "scheduler", "worker", "cron"],
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "@types/node": "^20.11.0"
+  }
+}
